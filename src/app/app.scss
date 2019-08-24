@@ -1,0 +1,44 @@
+// App Styles
+// ----------------------------------------------------------------------------
+// Put style rules here that you want to apply to the entire application. These 
+// styles are for the entire app and not just one component. Additionally, this 
+// file can hold Sass mixins, functions, and placeholder classes to be imported 
+// and used throughout the application.
+
+ion-input{
+    --placeholder-color: #6A6A6A;
+    --placeholder-opacity: 1;
+}
+
+#menu{
+    --background: var(--ion-color-primary);
+    --color: white;
+}
+
+#menu ion-title{
+    font-size: 16px;
+}
+
+.yes-menu-item{
+    --color: var(--yes-text) !important;
+}
+
+.input { 
+    --border-radius: 25px !important;
+    margin-bottom: 8px;
+    --background:  #e5e5e5;
+}
+
+
+.selector-modal{
+    --height: 35%;
+    --width: 85%;    
+}
+
+ion-modal {
+    --border-radius: 2px!important;
+}
+
+ion-content{
+    --ion-background-color:#f1f1f1;
+}

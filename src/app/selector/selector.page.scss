@@ -1,0 +1,15 @@
+.studentName{
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--yes-text);
+}
+
+.notselected{
+    --color: var(--yes-subtext);
+}
+
+.classRadio{
+    --color: var(--yes-subtext);
+    --color-checked: var(--ion-color-primary);
+    font-size: 14px;
+}
